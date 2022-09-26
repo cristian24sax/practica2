@@ -1,0 +1,76 @@
+.container{
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.container .content div{
+    color: #475467;
+    width: 768px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+.cards-companies{
+    display: flex;
+    gap:30px;
+    margin-top: 30px;
+}
+.container .btns{
+    display: flex;
+    gap:10px;
+}
+.btns .btn-customers{
+    width: 155px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+}
+.btns .btn-account{
+    color:#ffffff;
+    width: 159px;
+    height: 48px;
+    background: #7F56D9;
+    border: 1px solid #7F56D9;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+}
+.container-card{
+    position: relative;
+    color:#ffffff;
+    Width:300px;
+    Height:280px;
+    border-radius: 10px;
+}
+.content-title{
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 25px;
+    padding-top: 15px;
+}
+.box{
+    position: absolute;
+    bottom:0;
+    margin: 20px;
+    background-color: #FFFFFF80;
+    padding: 15px;
+    border-radius: 10px;
+}
+.card-title{
+    font-size: 18px;
+    padding: 5px;
+    font-weight: bold;
+}
+.card-description{
+    width: 230px;
+    font-size: 15px;
+    line-height: 28px;
+    margin-bottom: 10px;
+}
+.card-btn{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+}

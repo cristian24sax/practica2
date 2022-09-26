@@ -1,0 +1,13 @@
+.container-companies{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.eslogan{
+    margin: 0 auto;
+}
+.socios img{
+ padding-left:200px;
+
+}
